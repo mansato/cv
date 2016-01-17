@@ -1,0 +1,73 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css); /*appel font awesome*/
+body
+{
+  padding-bottom: 40px;
+  width: 100%;
+  height:100%;
+  margin: 0;
+  padding: 0;
+}
+.row 
+{
+margin: 0;
+}
+.coupure
+{
+	border-bottom: 1px dashed black;
+	margin-bottom: 10px;
+}
+.bordure
+{
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+}
+.textcentre{text-align: center;}
+.espaces{margin-bottom: 50px;}
+.style{text-shadow:2px 1px 2px black;}
+.gris{color:#444;}
+.orange{color:#E98812;}
+.progress-bar.fondgris{background-color:#444;}
+#tailleet
+{
+	font-size: 2em;
+}
+.tailletext
+{
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.alignement
+{   
+  width: 100%;
+}
+.sr-only
+{ color: white;
+  z-index: 1;
+}
+.progress
+{   width: 70%;
+    height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 2px grey solid;
+    padding: 3px;
+}
+.progress-bar
+{ border-radius: 15px 0  0 15px;
+   background-color: #E98812;
+}
+span
+{
+  font-weight: bold;
+}
+#textesp
+{
+  margin-bottom: 7px;
+}
+
+@media (max-width: 990px){
+
+.espaces{margin-bottom: 0px;}
+.progress{width: 100%;}
+}
